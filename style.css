@@ -1,0 +1,99 @@
+body {
+	background-color: azure;
+}
+
+div.container {
+	padding-top: 25vh;
+	width: 50vw;
+	margin: auto;
+}
+
+div.container-for-list {
+	padding-top: 5vh;
+	width: 80vw;
+	margin: auto;
+}
+
+div.container-for-list > header > * {
+	font-size: 24px;
+	text-align: center;
+}
+
+table {
+	margin-top: 25px;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th.no {
+	width: 5%;
+}
+
+th.nama {
+	width: 20%;
+}
+
+th.alamat {
+	width: 25%;
+}
+
+th.jenis-kelamin {
+	width: 10%;
+}
+
+th.sekolah-asal {
+	width: 20%;
+}
+
+td.no, td.tindakan {
+	text-align: center;
+}
+
+div.form-fields {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+div.form-fields > * {
+	margin-bottom: 20px;
+}
+
+div.title {
+	margin-top: 35vh;
+	font-size: 35px;
+}
+
+div.institution, div.menu-text {
+	font-size: 30px;
+}
+
+.menu {
+	font-size: 32px;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.functions {
+	text-align: center;
+}
+
+a {
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+}
+
+a#tambah-data {
+	background-color: green;
+}
+
+a#buat-pdf {
+	background-color: blue;
+}
